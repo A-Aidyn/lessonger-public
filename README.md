@@ -1,15 +1,15 @@
 # lessonger
 
-## How to run the project?
+## Contributors
 
-@A-Aidyn  
-@arr10  
-@tdiyar  
-@AsselK1  
-@nargizas  
-@IamNoPro  
-@NurlykhanKairly  
-@abirakhman  
+[@A-Aidyn](https://github.com/A-Aidyn)
+[@arr10](https://github.com/arr10)
+[@tdiyar](https://github.com/tdiyar)
+[@AsselK1](https://github.com/AsselK1)
+[@nargizas](https://github.com/nargizas)
+[@IamNoPro](https://github.com/IamNoPro)
+[@NurlykhanKairly](https://github.com/NurlykhanKairly)
+[@abirakhman](https://github.com/abdirakhman)
 
 
 ## How to run the project?
