@@ -1,0 +1,58 @@
+.chat-info-header {
+  display: flex;
+  line-height: normal;
+  align-items: center;
+}
+.chat-info-header .just-text {
+  margin-right: auto;
+}
+.chat-info-header .edit-button {
+  margin-right: 3px;
+}
+.chat-info-avatar-name {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chat-info-avatar-name .text-info {
+  margin-left: 30px;
+}
+.invitation-link {
+  display: flex;
+  flex-direction: row;
+}
+.invitation-link .name {
+  flex-shrink: 0;
+}
+.invitation-link .link {
+  flex-shrink: 1;
+  margin: 0 0 0 10px;
+}
+.participants-text {
+  margin-bottom: 20px;
+}
+.participants-container {
+  display: flex;
+  flex-direction: column;
+}
+.participants-container .small-user-profile {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.participants-container .small-user-profile .ant-space {
+  margin-left: 20px;
+  width: 100%;
+}
+.participants-container .small-user-profile .ant-space div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.participants-container .small-user-profile .ant-space div .to-right {
+  margin-left: auto;
+}

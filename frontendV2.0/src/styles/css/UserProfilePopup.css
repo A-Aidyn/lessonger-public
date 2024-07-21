@@ -1,0 +1,54 @@
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background-color:green;
+    /*background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Colorful-Material-Design-Background.jpg");*/
+    /*background-size: cover;*/
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -65px;
+    margin-bottom: -55px;
+    text-align: center;
+
+}
+
+.card.hovercard .avatar img {
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: whitesmoke;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 0px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+/*.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }*/

@@ -1,0 +1,84 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "parcel index.html",
+    "build": "rm -rf dist | parcel build index.html",
+    "clean": "aws s3 rm --recursive s3://s3-react-deploy",
+    "deploy": "aws s3 sync dist/ s3://s3-react-deploy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.12.13",
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-root-import": "^6.6.0",
+    "bower": "^1.8.8",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^8.2.4",
+    "webpack": "^5.19.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@joeattardi/emoji-button": "^4.6.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.3",
+    "antd": "^4.13.0",
+    "axios": "^0.21.1",
+    "babel-plugin-macros": "^3.0.1",
+    "btoa": "^1.2.1",
+    "containers": "0.0.1",
+    "cosmiconfig": "^7.0.0",
+    "emoji-mart": "^3.0.1",
+    "form-data": "^3.0.1",
+    "js-base64": "^3.6.0",
+    "js-file-download": "^0.4.12",
+    "moment": "^2.29.1",
+    "pages": "0.0.16",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^17.0.1",
+    "react-easy-emoji": "^1.4.0",
+    "react-icons": "^4.2.0",
+    "react-image": "^4.0.3",
+    "react-is": "^17.0.1",
+    "react-linkify": "^1.0.0-alpha",
+    "react-redux": "^7.2.2",
+    "react-rounded-image": "^2.0.11",
+    "react-router-dom": "^5.2.0",
+    "react-textarea-autosize": "^8.3.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "store": "^2.0.12",
+    "styled-components": "^5.2.1",
+    "styles": "^0.2.1",
+    "web-vitals": "^1.1.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}

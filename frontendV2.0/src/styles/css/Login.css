@@ -1,0 +1,23 @@
+.login-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.login-container .login-form {
+  width: 400px;
+  /*margin: auto;*/
+}
+@media screen and (max-width: 450px) {
+  .login-container .login-form {
+    width: 100%;
+  }
+}
+.login-container .login-form-forgot {
+  float: right;
+}
+.login-container .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-container .login-form-button {
+  width: 100%;
+}

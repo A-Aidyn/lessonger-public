@@ -1,0 +1,8 @@
+.home-form-container .home-text {
+  color: white;
+}
+@media screen and (max-width: 450px) {
+  .home-form-container {
+    width: 100%;
+  }
+}
